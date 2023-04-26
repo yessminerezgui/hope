@@ -1,0 +1,9 @@
+            points                   |                 tache                                                                |
+             2                       |init enigme generation aleatoire enigme (question + reponse )a partir du fichier      |void geneerEnigme(Enigme *p,char *nomfichier)
+             1                       |afficherr enigme                                                                      |void afficherEnigme(Enigme e,SDL_Surface *screen); 
+             2                       |resolution enigme(comparaison choix et bonne reponse)                                 |ce ne st pas une fonction il s agit de lire les input dans le main et de comparer la reponse du joeur avec la reponse  juste
+             1.5                     |zoom du message GOOD en cas de bonne reeponse,rotation du message hard en cas d'echec |sdl gfx
+             1.5                     |amélioration menu :choix toouches d inputs et de jouer                                |ce n'est pas une fonction il s agit de lire le choix de l utilisateur et mettre a jour la lecture d inputs dans le main ainsi que le numero du joeur
+ 
+ 
+important use this command :sudo apt-get install libsdl-gfx1.2-dev
